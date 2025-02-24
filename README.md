@@ -7,7 +7,7 @@ Dockerビルド
  1. git clone git@github.com:DaiFukumoto/FashionablyLateApp.git
  2. docker-compose up -d --build
 
-* MySQLは、OSによって起動しない場合があるのでそれぞれのPCに合わせてdocker-compose.ymlファイルを編集してください。
+※ MySQLは、OSによって起動しない場合があるのでそれぞれのPCに合わせてdocker-compose.ymlファイルを編集してください。
 
 Laravel環境構築
 
@@ -24,6 +24,7 @@ Laravel環境構築
  - MySQL8.0
 
 ## ER図
+![Image](https://github.com/user-attachments/assets/5629910c-591a-449f-b0fe-a4f1360c9018)
 
 ## URL
  - 開発環境：http://localhost/
